@@ -1,0 +1,23 @@
+.banner{
+    background:url('/public/Resources/banner2.png') ,
+    linear-gradient(rgb(255, 254, 254),rgb(221, 217, 217));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;     
+   background-position: center;
+   
+}
+
+
+
+
+/* .banner{
+    background:url('https://i.ibb.co/JB1y0X5/4690.jpg') ,
+    linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+} */
+
