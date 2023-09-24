@@ -3,18 +3,18 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <div className='banner w-full h-[100vh]'>
+        <div className='banner w-full h-[60vh]'>
             {/* <Header></Header> */}
 
-            <div className='flex flex-col justify-center items-center h-screen'>
-                <h1 className="pb-8 text-3xl font-bold">
+            <div className='flex flex-col justify-center items-center md:pt-32 pt-10'>
+                <h1 className="pb-8 md:text-3xl font-bold">
                     I Grow By Helping People In Need
                 </h1>
                 <div className="flex justify-center items-center ">
                     <div className="relative flex h-10 w-full min-w-[200px] max-w-[24rem]">
                         <input
                             type="email"
-                            className="peer h-full w-full rounded-[7px] border border-black border-t-transparent bg-transparent px-20 py-2.5 pr-20 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 placeholder-shown:border-t-black focus:border-2 focus:border-black focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-00"
+                            className="peer h-full w-full rounded-[7px] border border-black border-t-transparent bg-transparent md:px-20 py-2.5 pr-20 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 placeholder-shown:border-t-black focus:border-2 focus:border-black focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-00"
                             placeholder=""
                             required
                         />

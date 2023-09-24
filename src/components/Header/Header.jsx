@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
     return (
         <div>
-          <nav className="flex justify-between items-center px-8 py-6 ">    
+          <nav className="md:flex flex-row justify-between items-center px-8 py-6 ">    
 
           <img className="w-48" src="/public/Resources/Logo.png" alt="" />      
 
