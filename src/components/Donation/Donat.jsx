@@ -17,7 +17,7 @@ const Donat = () => {
        setDonate(findDonate)
     },[id, donates]);
 
-    console.log(donate)
+    // console.log(donate)
    
     return (
         <div>
