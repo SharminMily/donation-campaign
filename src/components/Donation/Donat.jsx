@@ -22,6 +22,7 @@ const Donat = () => {
     return (
         <div>
            <DonateCart donate={donate}></DonateCart>
+          
         </div>
     );
 };

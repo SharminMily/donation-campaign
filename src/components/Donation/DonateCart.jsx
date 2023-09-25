@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 import swal from 'sweetalert';
 const DonateCart = ({ donate }) => {
 
@@ -20,6 +22,7 @@ const DonateCart = ({ donate }) => {
             if (!isExits) {
                 addDonationArray.push(...donationItem, donate)
                 localStorage.setItem('donation', JSON.stringify(addDonationArray))
+                swal("Good job!", "Donation added successfully!", "success");
             }
             else{
                 swal("Error!", "No duplicate !", "error");

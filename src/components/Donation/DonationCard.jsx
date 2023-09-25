@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 
 const DonationCard = ({ donate }) => {
     const { id, category, title, price, picture, card_bg, category_bg, text_button_bg } = donate || {};
@@ -17,8 +19,9 @@ const DonationCard = ({ donate }) => {
                     <button style={{ background: text_button_bg }} className="btn  normal-case text-white">View Details</button>
                         
                 </div>
-            </div>
+            </div>            
         </div>
+        
     );
 };
 

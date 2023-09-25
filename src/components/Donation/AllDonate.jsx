@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import DonateCard from "./DonateCard";
 
 const AllDonate = ({donates}) => {
