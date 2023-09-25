@@ -1,7 +1,7 @@
 import DonateCard from "./DonateCard";
 
 const AllDonate = ({donates}) => {
-    console.log(donates)
+    // console.log(donates)
     return (
         <div className=" max-w-6xl mx-auto">
            <div className="mt-16 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
