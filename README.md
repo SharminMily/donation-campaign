@@ -1,8 +1,6 @@
-# React + Vite
+# Add at least 3 Project features here.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. I'm using HTML, tailwind CSS, daisyui, react, react-router, react-sweetalert.
+2. Using tools - vs code, GitHub repository, netlify.
+3. It's single page Application. It's very fast and easy process.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

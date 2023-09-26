@@ -5,7 +5,7 @@ const Header = () => {
         <div>
           <nav className="md:flex flex-row justify-between items-center px-8 py-6 ">    
 
-          <img className="w-48" src="/public/Resources/Logo.png" alt="" />      
+          <img className="w-48" src="./Resources/Logo.png" alt="" />      
 
             <ul className="flex gap-5 font-semibold text-lg">
                 <li>

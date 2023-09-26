@@ -27,7 +27,7 @@ const Donation = () => {
 
     }
 
-    console.log(donation)
+    // console.log(donation)
 
     return (
         <div>
@@ -49,7 +49,10 @@ const Donation = () => {
             }
 
             <div className='text-center my-8'>
-                {donation.length > 4 && <button onClick={()=>setIsSee(!isSee)} className='p-4 bg-blue-700 text-white rounded-lg mx-auto block'>{isSee ? "See less" : "See All"}  </button>}
+               {donation.length > 4 && <button onClick={()=>setIsSee(!isSee)}  className='p-4 bg-blue-700  text-white rounded-lg mx-auto block'> {isSee ? "See less" : "See All"} </button>   
+                } 
+                             
+               
             </div>
         </div>
     );
