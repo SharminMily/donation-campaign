@@ -5,8 +5,7 @@ import AllDonate from '../Donation/AllDonate';
 
 const Banner = ({donates}) => {
     const [ search, setSearch] = useState()
-
-    // console.log(donates)
+   
     const handleSearch = (e) => {
         e.preventDefault()
 
