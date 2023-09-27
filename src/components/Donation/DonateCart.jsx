@@ -29,10 +29,7 @@ const DonateCart = ({ donate }) => {
             }
 
 
-        }
-
-
-        // localStorage.setItem('test', JSON.stringify([{name:"hasib"}, {name: "ph"}]));
+        }       
 
     }
 

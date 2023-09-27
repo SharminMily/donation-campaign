@@ -1,7 +1,10 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
-const DonateCard = ({ donate }) => {
+const DonateCard = ({ donate , search }) => {
+
+    console.log(search)
+    
     const { id, category, title, picture, card_bg, category_bg, text_button_bg } = donate;
     return (
         <div>

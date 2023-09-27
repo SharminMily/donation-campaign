@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
 import DonationCard from './DonationCard';
+import Statistics from '../Statistics/Statistics';
 
 const Donation = () => {
     const [donation, setDonation] = useState([]);
@@ -39,21 +40,26 @@ const Donation = () => {
                     <div className='grid md:grid-cols-2 grid-cols-1 gap-6 max-w-5xl mx-auto mt-10'>
                         {
                             isSee ? donation.map(donate => <DonationCard key={donate.id} donate={donate}></DonationCard>) :
-                            donation.slice(0,4).map(donate => <DonationCard key={donate.id} donate={donate}></DonationCard>)
+                                donation.slice(0, 4).map(donate => <DonationCard key={donate.id} donate={donate}></DonationCard>)
                         }
                     </div>
-
-                    
-
                 </div>
             }
 
             <div className='text-center my-8'>
-               {donation.length > 4 && <button onClick={()=>setIsSee(!isSee)}  className='p-4 bg-blue-700  text-white rounded-lg mx-auto block'> {isSee ? "See less" : "See All"} </button>   
-                } 
-                             
-               
+                {/* {donation.length > 4 && <button onClick={()=>setIsSee(!isSee)}  className='p-4 bg-blue-700  text-white rounded-lg mx-auto block'> {isSee ? "See less" : "See All"} </button>   
+                }  */}
+                {donation.length > 4 && !isSee && (
+                    <button
+                        onClick={() => setIsSee(!isSee)}
+                        className='p-4 bg-blue-700 text-white rounded-lg mx-auto block'
+                    >
+                        See All
+                    </button>
+                )}
             </div>
+
+            
         </div>
     );
 };
